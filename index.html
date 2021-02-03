@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple select</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #select1 .select {
+            width: 170px;
+        }
+        #select2 .select {
+            width: 140px;
+        }
+    </style>
+</head>
+
+<body>
+    <select id="select1">
+        <option hidden value="">Select country</option>
+        <option value="BE">Belgium</option>
+        <option value="BG">Bulgaria</option>
+        <option value="CZ">Czechia</option>
+        <option value="DK">Denmark</option>
+        <option value="DE">Germany</option>
+        <option value="EE">Estonia</option>
+        <option value="LT">Lithuania</option>
+        <option value="HU">Hungary</option>
+        <option value="AT">Austria</option>
+        <option value="PL">Poland</option>
+        <option value="SI">Slovenia</option>
+        <option value="SK">Slovakia</option>
+    </select>
+    <select id="select2">
+        <option hidden value="">Living area</option>
+        <option value="City">City</option>
+        <option value="Town">Town</option>
+        <option value="Village">Village</option>
+    </select>
+    <script src="simple-select.js"></script>
+</body>
+
+</html>
